@@ -125,4 +125,18 @@ div.surprise-btn {
     main {
         margin-top: 5em;
     }
+
+    div.title h1{
+        font-size: 2.5rem;
+    }
+    
+    div.underline {
+        width: 100px;
+        right: 100px;
+    }
+
+    article.review {
+        height: 380px;
+        width: 300px;
+    }
 }
