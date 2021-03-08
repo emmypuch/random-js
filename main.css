@@ -106,6 +106,7 @@ i {
 button.random-btn {
     padding: 10px 30px;
     background: transparent;
+    color: rgb(52, 99, 83);
     border: 1px solid rgb(52, 99, 83);
 }
 

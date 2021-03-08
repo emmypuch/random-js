@@ -13,7 +13,7 @@ const reviews = [
         name: "Anna Doe",
         job: "Frontend Dev",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6jymPylrR_8POZqXI1Ak2VS7MPpm7FqwJQ&usqp=CAU",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste praesentium fugit sapiente eveniet repudiandae ipsa omnis facere id temporibus."
+        text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ratione molestias earum vel dolores dolore ducimus, quam, amet inventore deleniti architecto neque aut perferendis quasi?"
     },
 
     {
@@ -29,7 +29,7 @@ const reviews = [
         name: "Joy Doe",
         job: "Andriod Dev",
         img: "https://i.pinimg.com/originals/48/35/b5/4835b5f9c52fd733eb26fb2c2b47bdc7.jpg",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste praesentium fugit sapiente eveniet repudiandae ipsa omnis facere id temporibus."
+        text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ratione molestias earum vel dolores dolore ducimus, quam, amet inventore deleniti architecto neque aut perferendis quasi?"
     },
 ];
 
@@ -80,5 +80,7 @@ prevBtn.addEventListener("click", function () {
 
 // Show random person
 randomBtn.addEventListener("click", function () {
-    
+    currentItem = Math.floor(Math.random() * reviews.length);
+    console.log("showPerson");
+    showPerson();
 })
